@@ -48,10 +48,3 @@ echo "kc rolebinding read-view-binding --clusterrole=view --serviceaccount=omni:
 
 clear;
 
-
-wget https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/policy/example-psp.yaml -O psp.yaml;
-wget https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/audit/audit-policy.yaml -O audit-policy.yaml;
-wget https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/security/hello-apparmor.yaml -O apparmor.yaml;
-wget https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/pods/security/seccomp/ga/audit-pod.yaml -O seccom.yaml;
-
-clear;
