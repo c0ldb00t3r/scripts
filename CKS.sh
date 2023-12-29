@@ -41,9 +41,6 @@ clear;
 
 
 echo "%evt.time,%container.id,%container.name,%user.name,%user.uid,%proc.pid" >>lol.txt
-echo "PodSecurityPolicy,ImagePolicyWebhook" >>lol.txt
-echo "kc clusterrole psp-mount --verb=use --resource=podsecuritypolicies --resource-name=psp-mount -n" >>lol.txt
-echo "kc clusterrolebinding psp-mount-binding --clusterrole=psp-mount --group=system:serviceaccounts:ns -n" >>lol.txt
 echo "kc rolebinding read-view-binding --clusterrole=view --serviceaccount=omni:read -n=omni">>lol.txt
 
 clear;
