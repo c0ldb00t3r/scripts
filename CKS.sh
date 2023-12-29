@@ -35,6 +35,8 @@ source ~/.bashrc;
 cat << EOV >> ~/.vimrc
 set ts=2 sts=2 sw=2 expandtab ruler
 set backspace=indent,eol,start
+set nu
+set ic
 EOV
 
 clear;
