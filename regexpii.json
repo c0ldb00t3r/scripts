@@ -14,6 +14,7 @@
     ]
 }
 
+
 Normal pii- ?i)(^(((first|last|full)[_\W]{0,2}name)|(social[_\W]{0,2}security[_\W]{0,2}number)|(^ssn)|(driver(s|'s)[_\W]{0,2}license([_\W]{0,2}number)?)|(date[_\W]{0,2}of[_\W]{0,2}birth)|(home[_\W]{0,2}address)|(passport([_\W]{0,2}number)?)|((passport|national|tax)[_\W]{0,2}id))$)|(\/((((first|last|full)[_\W]{0,2}name)|(social[_\W]{0,2}security[_\W]{0,2}number)|(^ssn)|(driver(s|'s)[_\W]{0,2}license([_\W]{0,2}number)?)|(date[_\W]{0,2}of[_\W]{0,2}birth)|(home[_\W]{0,2}address)|(passport([_\W]{0,2}number)?)|((passport|national|tax)[_\W]{0,2}id)))$)|(\/((((first|last|full)[_\W]{0,2}name)|(social[_\W]{0,2}security[_\W]{0,2}number)|(^ssn)|(driver(s|'s)[_\W]{0,2}license([_\W]{0,2}number)?)|(date[_\W]{0,2}of[_\W]{0,2}birth)|(home[_\W]{0,2}address)|(passport([_\W]{0,2}number)?)|((passport|national|tax)[_\W]{0,2}id)))\/)
 credential - (?i)(^((user[_\W]{0,2}(name|id))|((uid|password|secret|login|credentials|certificate|x509))|(db[_\W]{0,2}user)|(((shared[_\W]{0,2})?access|api)[_\W]{0,2}key)|((access[_\W]{0,2})?token))$)|(\/((user[_\W]{0,2}(name|id))|((uid|password|secret|login|credentials|certificate|x509))|(db[_\W]{0,2}user)|(((shared[_\W]{0,2})?access|api)[_\W]{0,2}key)|((access[_\W]{0,2})?token))$)|(\/((user[_\W]{0,2}(name|id))|((uid|password|secret|login|credentials|certificate|x509))|(db[_\W]{0,2}user)|(((shared[_\W]{0,2})?access|api)[_\W]{0,2}key)|((access[_\W]{0,2})?token))\/)
 master card- \b(5[1-5][0-9]{14}|2(22[1-9][0-9]{12}|2[3-9][0-9]{13}|[3-6][0-9]{14}|7[0-1][0-9]{13}|720[0-9]{12}))\b
